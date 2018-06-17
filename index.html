@@ -6,36 +6,29 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<title>Starwin Miranda - Product Consultant</title>
-
-	<!--[if lt IE 9]>
-<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
-	<!-- Fichiers CSS -->
 	<link rel="stylesheet" href="StarwinMirandaHW2Files/reset.css">
-	<!--[if lt IE 9]> 
-	<link rel="stylesheet" href="css/cv.css" media="screen">
-<![endif]-->
 	<link rel="stylesheet" media="screen and (max-width:480px)" href="StarwinMirandaHW2Files/mobile.css">
 	<link rel="stylesheet" media="screen and (min-width:481px)" href="StarwinMirandaHW2Files/cv.css">
+	<script type="text/javascript" src="color.js"></script>
 	<link rel="stylesheet" media="print" href="StarwinMirandaHW2Files/print.css">
 	<link rel="stylesheet" href="StarwinMirandaHW2Files/css/circle.css">
 </head>
 
-<body>
-
+<body onload="myFunction();changeBackgroundColor('header')">
 	<!-- Header -->
-	<header role="banner">
+	
+			
+
+	<header role="banner" >
 		<div class="container_16">
 			<hgroup>
 				<h1>Starwin Miranda</h1>
 				<h3>Product Consultant(Insurance IT) ~ Data Science Student at NJCU</h3>
 				<h4>
 					<a href="mailto:example.mail@email.com">example.mail@email.com</a> ~
-					<a href="mailto:example.mail@email.com">700-888-9999</a> ~
-					<a href="mailto:example.mail@email.com">Linkdin Profile</a>
+					<a href="callto:example.mail@email.com">999-999-9999</a> ~
+					<a href="https://www.linkedin.com">Linkdin Profile</a>
 				</h4>
 			</hgroup>
 			<figure>
@@ -44,39 +37,17 @@
 		</div>
 	</header>
 
-	<!-- Contact -->
-	<section class="contactform clearfix">
-		<div class="container_16">
-			<h3>Contactez-moi</h3>
-			<p>Remplissez le formulaire ci-dessous afin de m'envoyer un message. Je vous répondrais dans les plus bref délai.
-				<br>
-				<em>Tous les champs sont requis.</em>
-			</p>
-			<form novalidate="novalidate" method="post" action="#" name="contact" class="grid_16">
-				<p class="grid_10">
-					<textarea name="message" placeholder="Votre message" class="required"></textarea>
-				</p>
-				<p class="grid_6">
-					<input name="nom" placeholder="Nom - Prénom" class="required" type="text">
-					<input name="email" placeholder="Adresse email" class="required" type="email">
-					<input name="envoi" value="Envoyer le message" class="required" type="submit">
-					<span class="messageform"></span>
-				</p>
-			</form>
-		</div>
-	</section>
-
-	<!-- Corps -->
+	
 	<section role="main" class="container_16 clearfix">
 		<div class="grid_16">
 			<!-- A propos -->
 			<div class="grid_8 apropos">
 				<h3>Brief</h3>
-				<p>Over a decade experience in professional IT industry. Worked in multiple Insurance applications and products from a developer
-					role till product owner. Proficient experience in north american insurance applications and systems. Great exposure
-					with Rating algorithms and tools. Worked in all major technologies and languages. Vast experience in project management
-					and managed innovation process and tools. Good knowledge in Data Science modeling, EDA and Data visualisation concepts
-					and tools.</p>
+				<p>Over a decade of experience in professional IT industry. Worked in multiple Insurance applications and products from
+					a developer role till product owner. Proficient experience in north american insurance applications and systems. Great
+					exposure with Rating algorithms and tools. Worked in all major technologies and languages. Vast experience in project
+					management and managed innovation process and tools. Good knowledge in Data Science modeling, EDA and Data visualisation
+					concepts and tools.</p>
 				<p>Ten years of experience in interacting with North American Insurance clients. Developed global platforms for multiple
 					insurance companies. Godd experience in agile and scrum skills and process. High communication and interpersonal skills.
 					Great exposure with research and publications. Prolific team player.</p>
@@ -104,14 +75,13 @@
 						</div>
 					</div>
 					<p>Data Science Skills</p>
-					<div class="c100 p70 small">
-						<span>70%</span>
+					<div class="c100 p75 small">
+						<span>75%</span>
 						<div class="slice">
 							<div class="bar"></div>
 							<div class="fill"></div>
 						</div>
 					</div>
-
 					<p>Management Skills</p>
 					<div class="c100 p85 small">
 						<span>85%</span>
@@ -123,57 +93,165 @@
 				</div>
 			</div>
 		</div>
-		</div>
-
+	</section>
+	<section role="main" class="container_16 clearfix">
 		<!-- Expériences -->
 		<div class="grid_16 experiences">
 			<h3>Experiences</h3>
 			<ul>
 				<li>
 					<h4>
-						<strong>Company1 : </strong> Product Owner</h4>
-					<span class="lieu">Location</span>
-					<span class="dates">Dates</span>
-					<p>Description about project, role, experience, technology and achievements.</p>
+						<strong>Project 1 : </strong> Product Owner</h4>
+					<span class="lieu">New Jersey</span>
+					<span class="dates">2015 - Till now</span>
+					<p>I have been working as a Product Consultant in a challenging customer environment under tight schedule. I have been engaging myself with requirement gathering, system study, framework analysis, development, testing and deployment activities. The objective of the project was to develop a rating engine for HNW USA and Canada Personal line products. And giving support as per ongoing business changes every month. I have developed entire Rating Engine (OpenL) for all 13 Canadian provinces. And I have developed numerous enhancements and have given support for 50 states of HNW USA products in CIP application. This involved entire personal lines of business which includes Auto, Home, Excess Liability, Earthquake and Collections. I have been responsible for development, unit testing, functional testing, deployment and production support activities of all applications in accordance with the projects adopted standards, for integration into different systems. I have extensive knowledge in designing Rating Engine and understanding the behavior of the application during its execution with respective to technical as well as business. With extensive knowledge in Exigen, OpenL, Webstudio, SOAP, XML Java, J2EE, SQL and Maven, I have managed to deliver solutions for complex business problems. Over the years, I can confidently say that I have provided solutions for various business problems of multiple insurance clients in north America.
+					</p>
 				</li>
 				<li>
 					<h4>
-						<strong>Company2 : </strong>Team Laed</h4>
-					<span class="lieu">Location</span>
-					<span class="dates">Dates</span>
-					<p>Description about project, role, experience, technology and achievements.</p>
+						<strong>Project 2 : </strong>Team Laed</h4>
+					<span class="lieu">Chennai</span>
+					<span class="dates">2011 - 2015</span>
+					<p>I played a key role in this project as a Senior Developer/ Team Leader. The objective of the project was to give prediction reports which helped the customers future investment directions. We developed an engine which collects historical data from different systems, process and predicts the future data through extrapolation techniques. This being a hit in the North American markets, we rolled out the same Predictive analytical model for Japan and EMEA market as well. This implementation of the predictive model in different geographies helped me to understand and appreciate the differences in insurance domain across geographies. I used Java Spring framework along with POI framework to develop the predictive engine. I have written all business logics in stored procedures and functions by using SQL. I had wide experience to work on SQL technology during this tenure. I also had experience to work on SSIS and Tivoli scheduler during this assignment.</p>
 				</li>
 				<li>
 					<h4>
-						<strong>Company3 : </strong>Developer</h4>
-					<span class="lieu">Location</span>
-					<span class="dates">Dates</span>
-					<p>Description about project, role, experience, technology and achievements.</p>
+						<strong>Project 3 : </strong>Developer</h4>
+					<span class="lieu">Chennai</span>
+					<span class="dates">2009 - 2011</span>
+					<p>As the business demands new technical adaptations every month for their changing business, I have delivered solutions that have made the business implementations in easier way through my expertise in J2EE and DB2 related technologies. The objective of the project was to give support for an Insurance Agency system. This was a production support team. I was part of 60-member team who gave support along with minor enhancements. I participated in requirement gathering and analysis of the specifications which helped me to understand in project planning. I was also responsible for end-to-end delivery/maintenance, Co-ordination the QC certification. I also took up complete responsibility of the development and testing of the Accounting module, which interacted with batch reports and many sub systems. I had opportunity to work with Agency Framework, Web Services and SQL during this tenure.</p>
+				</li>
+				<li>
+					<h4>
+						<strong>Project 4 : </strong>Research Assistant/Co-Author</h4>
+					<span class="lieu">Chennai</span>
+					<span class="dates">2008 - 2009</span>
+					<p>Under the leadership of an excellent professor, I researched the topic “Pressure Drop Characteristics of Water Flow
+						through Static Annular and Triangular Cavity Labyrinth Seals” for more than a year. The objective of the research was
+						to provide a better design which would give highest possible pressure drop in seals. This challenged me to find the
+						right sized seal design from thousands of possibilities. To predict the closely accurate design, I created a “Predictive
+						Analytical” model by using Artificial Neural Network (ANN). To confirm my prediction results, I created a prototype
+						and experimented in IGCAR sponsored lab. To back my result, I did the same experiment through “Image Processing” technique
+						by using MATLAB. This paper was published in an international journal “Engineering Applications of Computational Fluid
+						Mechanics”. This research experience helped me to understand the optimization techniques along with the descriptive
+						and predictive analytical models in the field of engineering.</p>
 				</li>
 			</ul>
 		</div>
 
+		<div class="grid_16 experiences">
+			<h3>Data Science Experiences</h3>
+			<ul>
+				<li>
+					<h4>
+						<strong>Project 1 : </strong> Data Science Student</h4>
+					<span class="lieu">New Jersey</span>
+					<span class="dates">2018 - Till now</span>
+					<p>As part of my MS in Data science course I have done lot of machine learning and EDA projects. I have done an extensive data analysis over a bank data set and applied multiple classification models over the data set. Through that I predicted whether customer will become a defaulter or not. And summarized that which model will be a better fit for this dataset based on the impact of multiple accuracy measures. Similarly, I have done an extensive data analysis over Insurance customers dataset to find an tailor made algorithm based on customer life style, health and habits. I did regression modeling to predict the relationship between customer life style and claims which helps me to create a tier logic for those customers to derive a tailor-made insurance premium calculation logic. I have used R studio, SQL, Rapid miner, Python and Tableau for this project.
+					</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section role="main" class="container_16 clearfix">
 		<!-- Formations -->
 		<div class="grid_16 competences">
 			<h3>Certifications</h3>
 			<ul class="barres">
-				<li data-skills="80">Sun Certified Programmer for the Java 2 Platform SE 6.0<span style="width: 90%;"></span></li>
-				<li data-skills="75">INS21 (Property and Liability Insurance)<span style="width: 75%;"></span></li>
-				<li data-skills="70">INS22 (Personal Insurance)<span style="width: 70%;"></span></li>
-				<li data-skills="75">Exigen-Policy Core Testing<span style="width: 75%;"></span></li>
-				<li data-skills="95">ICBP (Innovation Capability Build Program)<span style="width: 95%;"></span></li>
-				<li data-skills="78">SQL (ANSI-Brainbench)<span style="width: 78%;"></span></li>
+				<li data-skills="80">Sun Certified Programmer for the Java 2 Platform SE 6.0
+					<span style="width: 90%;"></span>
+				</li>
+				<li data-skills="75">INS21 (Property and Liability Insurance)
+					<span style="width: 75%;"></span>
+				</li>
+				<li data-skills="70">INS22 (Personal Insurance)
+					<span style="width: 70%;"></span>
+				</li>
+				<li data-skills="75">Exigen-Policy Core Testing
+					<span style="width: 75%;"></span>
+				</li>
+				<li data-skills="95">ICBP (Innovation Capability Build Program)
+					<span style="width: 95%;"></span>
+				</li>
+				<li data-skills="78">SQL (ANSI-Brainbench)
+					<span style="width: 78%;"></span>
+				</li>
 			</ul>
 		</div>
+	</section>
+	<section role="main" class="container_16 clearfix">
+		<div class="grid_16 competences">
+			<h3>Software Skills</h3>
+			<style style="overflow-x:auto;">
+				table {
+					border-collapse: collapse;
+					width: 100%;
+				}
 
+				th,
+				td {
+					/*border: 1px solid #ddd;*/
+					text-align: left;
+					padding: 8px;
+				}
 
+				tr:nth-child(even) {
+					background-color: #c0e9f7
+				}
+
+				th {
+					background-color: #33a4c9;
+					color: #33a4c9;
+				}
+			</style>
+			<table border="1">
+				<tr>
+					<td>Operating system</td>
+					<td>Windows and MAC OS</td>
+				</tr>
+				<tr>
+					<td>Programming Languages</td>
+					<td>Java, J2EE, JSP, HTML and XML</td>
+				</tr>
+				<tr>
+					<td>Database & Development Tools</td>
+					<td>SQL Server 2008, Eclipse IDE, IBM RAD and DB2</td>
+				</tr>
+				<tr>
+					<td>Product Skills</td>
+					<td>Exigen and OpenL</td>
+				</tr>
+				<tr>
+					<td>Datascience & Analytics Tools</td>
+					<td>R studio, Python, Rapid miner, Tableau and VS code</td>
+				</tr>
+				<tr>
+					<td>Frameworks and Tools</td>
+					<td>Spring, MVC, WebSphere Application Server, Tomcat server, SOAP and Maven,</td>
+				</tr>
+				<tr>
+					<td>Version control and Process Tools</td>
+					<td>Borland Star Team, Mercurial, SVN, Github, Quality Center and Jira.</td>
+				</tr>
+				<tr>
+					<td>Other Software Tools</td>
+					<td>MS Office, Photoshop, iMovie, MATLAB, ANN, Gambit and Fluent</td>
+				</tr>
+			</table>
+		</div>
+	</section>
+	<section role="main" class="container_16 clearfix">
 		<!-- Loisirs -->
 		<div class="grid_8 loisirs">
 			<h3>Education</h3>
 			<p>
-				<strong>Bachelor of Engineering :</strong> Anna University, Chennai, India</p>
+				<strong>Bachelor of Engineering :</strong>
+				<a href="https://www.annauniv.edu/">Anna University, Chennai, India</a>
+			</p>
 			<p>
-				<strong>MS in Business Analytics & Data Science :</strong> NJCU School of Business, NJ, USA</p>
+				<strong>MS in Business Analytics & Data Science :</strong>
+				<a href="https://www.njcu.edu/school/sbusi"> NJCU School of Business, NJ, USA</a>
+			</p>
 		</div>
 
 		<!-- Contact -->
@@ -181,19 +259,41 @@
 			<h3>Research & Publications</h3>
 			<p>
 				<strong>Title :</strong>Pressure Drop Characteristics of Water Flow through Static Annular and Triangular Cavity Labyrinth Seals</p>
-			<strong>Publications :</strong>Engineering Applications of Computational Fluid Mechanics (Taylor & Francis)</p>
+			<strong>Publications :</strong>
+			<a href="https://www.tandfonline.com/doi/abs/10.1080/19942060.2008.11015246">Engineering Applications of Computational Fluid Mechanics (Taylor & Francis)</a>
+			</p>
 
 		</div>
 	</section>
-
+	<footer role="banner">
+			
+			<style>
+					svg {
+						display: block;
+						margin-left: auto;
+						margin-right: auto;
+					}
+					</style>
+					<a class="down-cv" href="Resume_Starwin_Latest.pdf" download="Resume_Starwin_Latest.pdf">
+		<svg height="130" width="500" style="width:15%;">
+		<defs>
+		  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+			<stop offset="0%" style="stop-color:#c1edfc;stop-opacity:1" />
+			<stop offset="100%" style="stop-color:#33a4c9;stop-opacity:1" />
+		  </linearGradient>
+		</defs>
+		<circle cx="80" cy="80" r="40"  fill="url(#grad1)" />
+		
+		<text fill="#040708" font-size="35" font-family="Forte" x="55" y="92">SM</text>
+		Sorry, your browser does not support inline SVG.
+	  </svg></a>
+	</footer>
 	<!-- Scripts JavaScript -->
 	<script src="StarwinMirandaHW2Files/jquery-1.js"></script>
 	<script src="StarwinMirandaHW2Files/validate.js"></script>
-	<!--[if lt IE 9]>
-<script src="scripts/placeholder.js"></script>
-<![endif]-->
 	<script src="StarwinMirandaHW2Files/plugins.js"></script>
-
+	
 </body>
+
 
 </html>

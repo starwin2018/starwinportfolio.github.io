@@ -33,6 +33,7 @@
 	width:98.0%;
 }
 
+
 .clearfix:after {
 	clear: both;
 	content: ' ';
@@ -159,7 +160,7 @@
 		outline: none;
 		-webkit-transition: opacity 1s;
 	}
-	
+	z
 	.contactform input[type=submit] {
 		background: #ff9f39;
 		border: 1px solid #ff9f39;
